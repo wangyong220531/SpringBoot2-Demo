@@ -13,6 +13,8 @@ public class Hello {
 
     @RequestMapping("/person")
     public Person person() {
+        String userName = person.getUsername();
+        System.out.println(userName);
         return person;
     }
 }
