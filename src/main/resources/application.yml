@@ -1,0 +1,36 @@
+person:
+  username: caixvteng
+  boss: true
+  birth: 2023/03/03
+  age: 60
+  #  interests: [ 唱，跳，Rap, 篮球 ]
+  interests:
+    - 唱
+    - 跳
+    - Rap
+    - 篮球
+  animals: [ 龙龟，鳄鱼 ]
+  #  score:
+  #    数据结构:100
+  #    算法分析与设计:99
+  #    操作系统：97
+  score: { 数据结构:100,算法分析与设计:99,操作系统：97 }
+  salaries:
+    - 9999.99
+    - 9999.97
+  pet:
+    name: 墨菲特
+    weight: 200
+  allPets:
+    sick:
+      - { name: 德莱文,weight: 182 }
+      - name: 阿卡丽
+        weight: 66
+      - name: 奥巴马
+        weight: 95
+    health:
+      - { name: 诺手, weight: 187 }
+      - { name: 奥拉夫, weight: 55 }
+
+
+
